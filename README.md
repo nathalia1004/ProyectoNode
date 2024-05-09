@@ -1,6 +1,6 @@
 # ProyectoNode
-Nombre: Nathalia Estefanía Cóndor Flores
-Correo: natis.nti@gmail.com
+- Nombre: Nathalia Estefanía Cóndor Flores
+- Correo: natis.nti@gmail.com
 
 # Proyecto de Autenticación y Gestión de Usuarios
 
