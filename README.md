@@ -27,14 +27,14 @@ La API está disponible en la siguiente URL:
 La API proporciona endpoints para la autenticación de usuarios, gestión de sesiones y operaciones CRUD básicas para usuarios. A continuación, se muestran las principales rutas disponibles:
 
 **Autenticación**:
-POST /api/auth/login: Iniciar sesión con credenciales de usuario.
-POST /api/auth/logout: Cerrar sesión.
+- POST /api/auth/login: Iniciar sesión con credenciales de usuario.
+- POST /api/auth/logout: Cerrar sesión.
 **Usuarios**:
-GET /api/users: Obtener todos los usuarios.
-POST /api/users: Crear un nuevo usuario.
-PUT /api/users/:id: Actualizar un usuario existente.
-DELETE /api/users/:id: Eliminar un usuario.
+- GET /api/users: Obtener todos los usuarios.
+- POST /api/users: Crear un nuevo usuario.
+- PUT /api/users/:id: Actualizar un usuario existente.
+- DELETE /api/users/:id: Eliminar un usuario.
 **Sesiones**:
-GET /api/session/currentUser: Obtener información del usuario que ha iniciado sesión.
+- GET /api/session/currentUser: Obtener información del usuario que ha iniciado sesión.
 
 
