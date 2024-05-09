@@ -2,9 +2,12 @@
 
 const mongoose = require("mongoose")
 
+require('dotenv').config();
+
+
 //Conectamos la db  utilizando el metodo connect de mongoose
 
-const mongoDBURL = "mongodb+srv://natisnti:Television*93@cluster0.ryf5yts.mongodb.net/proyect"
+const mongoDBURL = "mongodb+srv://natisnti:"+process.env.PASSWORDDB+"@cluster0.ryf5yts.mongodb.net/" + process.env.DATABASE;
 
 function connectDB() {
     return new Promise((res, rej) => {

@@ -4,6 +4,8 @@ const express = require("express")
 
 const connectDb = require("./db/db")
 
+
+
 //Creamos una instancia de Express
 
 const app = express()
