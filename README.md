@@ -20,6 +20,9 @@ El proyecto está estructurado en varias carpetas y archivos:
 
 ## Uso de la API
 
+La API está disponible en la siguiente URL:
+
+- Local: `http://localhost:3010/`
 
 La API proporciona endpoints para la autenticación de usuarios, gestión de sesiones y operaciones CRUD básicas para usuarios. A continuación, se muestran las principales rutas disponibles:
 
@@ -33,7 +36,5 @@ PUT /api/users/:id: Actualizar un usuario existente.
 DELETE /api/users/:id: Eliminar un usuario.
 **Sesiones**:
 GET /api/session/currentUser: Obtener información del usuario que ha iniciado sesión.
-
-http://localhost:3010/
 
 
